@@ -35,7 +35,7 @@ function ContactSection() {
       <div className="w-full my-12">
         <h1 className="text-center font-bold text-4xl">Contacts</h1>
         <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-o rounded" />
-        <div className="flex flex-row flex-wrap justify-center space-x-20">
+        <div className="flex flex-row flex-wrap justify-center space-x-4 sm:space-x-8 md:space-x-12 lg:space-x-16">
           {contacts.map((contact, idx) => {
             return (
               <div key={idx}>

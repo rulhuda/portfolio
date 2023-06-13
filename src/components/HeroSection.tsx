@@ -13,27 +13,41 @@ function HeroSection() {
         <div className="md:mt-2 md:w-3/5">
           <h1 className="font-bold text-4xl mt-6 md:text-7xl md:mt-0">Hi, I{"'"}m Huda!</h1>
           <p className="text-2xl mt-4 mb-6">Im a {" "}
-          <span className="font-semibold text-teal-600">
+          <span className="font-semibold text-teal-500">
             Web Developer {" "}
           </span>
           based in Jombang, East Java.
           </p>
-          <Link
-          to="projects"
-          className="text-neutral-100 cursor-pointer font-semibold px-6 py-3 bg-teal-600 rounded-md text-2xl"
-          activeClass="active"
-          spy={true}
-          smooth={true}
-          offset={-100}
-          duration={500}
-          >
-            Projects
-          </Link>
+          <div className="flex flex-row space-x-4 justify-center md:justify-start">
+            <Link
+            to="projects"
+            className="text-neutral-100 cursor-pointer font-semibold px-6 py-3 bg-teal-500 rounded-md text-2xl"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+            >
+              Projects
+            </Link>
+            <Link
+            to="contact"
+            className="text-neutral-100 cursor-pointer font-semibold px-6 py-3 bg-indigo-500 rounded-md text-2xl"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+            >
+              Contact
+            </Link>
+          </div>
         </div>
       </div>
         
       <div className="flex flex-row justify-center">
         <Link
+        className="cursor-pointer"
         to="about"
         activeClass="active"
         spy={true}

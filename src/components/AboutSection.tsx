@@ -62,29 +62,24 @@ function AboutSection() {
         <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-o rounded" />
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:flex-row md:text-left md:space-x-2 md:space-y-0">
           <div className="md:w-1/2">
-            <h1 className="font-bold text-2xl py-2">Get to know me!</h1>
+            <h1 className="font-bold text-2xl py-2">Ingin tahu mengenai saya?</h1>
             <p>
-              Hi, my name is Huda and I am a{" "}
-              <span className="font-bold">{"learn by doing,"}</span>
-              <span className="font-bold">{" adaptable,"}</span>
-              <span className="font-bold">{" self-motivated"}</span>{" "}
-              Web Developer based in Jombang, East Java, ID.
+            Hai, nama saya Huda. Saya seorang Web Developer yang mudah beradaptasi, mempelajari hal baru terkait teknologi, dan memotivasi diri sendiri yang bertempat tinggal di Jombang, Jawa Timur, Indonesia.
             </p>
             <br />
+
             <p>
-              I graduated from Hasyim Asy{"'"}ari University, Jombang in 2023 with Cumlaude in Computer Engineering and have been working in the field ever since
+            Saya lulus dari Universitas Hasyim Asy{"'"}ari, Jombang pada tahun 2023 dengan predikat Cumlaude jurusan S1 Teknik Informatika.
             </p>
             <br />
+
             <p>
-              I have a wide range of hobbies and passions that keep me busy, From reading, writing, coding, I am always seeking new experience and love to keep my self engaged and learing new things.
+            Saya memiliki berbagai macam hobi dan minat yang membuat saya sibuk, mulai dari membaca, menulis, coding, saya selalu mencari pengalaman dan cinta baru untuk membuat diri saya tetap terlibat dan mempelajari hal-hal baru.
             </p>
             <br />
+
             <p>
-              I believe that you should {" "}
-              <span className="font-bold text-teal-500">
-                Never Stop Growing
-              </span> {" "}
-              and that{"'"}s what I Strive to do, I hav a passion for technology and a desire to always push the limits of what is possible. I am excited to see where my acreer takes me and always open to new oppurtunities. 🙂
+            Saya percaya bahwa Anda tidak boleh Berhenti Bertumbuh dan itulah yang saya Perjuangkan, saya memiliki hasrat terhadap teknologi dan keinginan untuk selalu mendorong batas dari apa yang mungkin. Saya senang melihat ke mana karir saya membawa saya dan selalu terbuka untuk peluang baru. 🙂
             </p>
           </div>
           <div className="md:w-1/2">

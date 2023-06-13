@@ -68,7 +68,7 @@ function ProjectsSection() {
                   <Image src={project.image} alt={project.name} width={1000} height={1000} className="rounded-xl shadow-xl hover:opacity-70" />
                 </div>
                 <div className="md:w-1/2">
-                  <h2 className="text-3xl font-bold mt-2 md:mt-0 mb-4">{project.name}</h2>
+                  <h2 className="text-3xl font-bold mt-5 md:mt-0 mb-4">{project.name}</h2>
                   <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
                     {project.description}
                   </p>
@@ -85,7 +85,7 @@ function ProjectsSection() {
                     {project.demo &&
                     (
                       <Link
-                      className="bg-teal-500 py-3 px-5 font-semibold text-lg text-center rounded-lg text-slate-100 hover:opacity-70"
+                      className="bg-indigo-500 py-3 px-5 font-semibold text-lg text-center rounded-lg text-slate-100 hover:opacity-70"
                       href={project.demo || project.github}
                       rel="noopener noreferrer"
                       target="_blank"
