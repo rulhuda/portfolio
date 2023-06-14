@@ -26,7 +26,7 @@ function ContactSection() {
     {
       name: 'Resume',
       icon: <AiFillFilePdf size={40} />,
-      link: "/resume/Nurul-Huda-CV.pdf",
+      link: "/resume/Nurul-Huda_Resume.pdf",
       download: true,
     },
   ]
