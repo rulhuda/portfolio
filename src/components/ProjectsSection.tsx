@@ -30,22 +30,6 @@ function ProjectsSection() {
       demo: null,
     },
     {
-      name: "Games: Setak",
-      image: "/projects/setak-games.png",
-      description:
-        "Setak merupakan games senam otak teka-teki yang terinspirasi dari game Hangman. Project ini pada Front-Endnya dibuat menggunakan React JS kemudian untuk Back-Endnya dibuat menggunakan Express JS dan Prisma ORM dengan database SQLite",
-      github: "https://github.com/rulhuda/FE-Setak",
-      demo: null,
-    },
-    {
-      name: "Youtube Downloader",
-      image: "/projects/yt-downloader.png",
-      description:
-        "Project ini terinspirasi dari sebuah situs download video atau musik yang berasal dari youtube, Situs tersebut yaitu y2mate. Project ini dibuat menggunakan React JS dan Chakra UI sebagai Framework CSSnya.",
-      github: "https://github.com/rulhuda/rulhuda-ytdownloader",
-      demo: "https://rulhuda-ytdownloader.vercel.app/",
-    },
-    {
       name: "SERESTA",
       image: "/projects/seresta.png",
       description:
@@ -53,22 +37,38 @@ function ProjectsSection() {
       github: "https://github.com/rulhuda/restaurant-apps",
       demo: "https://seresta.rulhuda.com",
     },
-    {
-      name: "ENHA RECIPES",
-      image: "/projects/enha-recipes.png",
-      description:
-        "Project ini menampilkan list resep-resep internasional. Project ini terbuat JavaScript yang dikombinasikan dengan library-library npm lainnya. Pada project ini juga memanfaatkan API untuk pengambilan data.",
-      github: "https://github.com/rulhuda/enha-recipes",
-      demo: "https://rulhuda.github.io/enha-recipes/dist/",
-    },
-    {
-      name: "BOOKSHELF APPS",
-      image: "/projects/bookshelf-app.png",
-      description:
-        "Project ini menggunakan JavaScript. Pada project ini pengguna dapat menambah, mengedit, menghapus, buku apa saja yang dibaca ataupun belum dibaca. Pada project ini penyimpanan yang digunakan ialah Web Storage, web storage yang dipakai ialah local storage.",
-      github: "https://github.com/rulhuda/bookshelf-apps",
-      demo: "https://rulhuda.github.io/bookshelf-apps/",
-    },
+    // {
+    //   name: "Games: Setak",
+    //   image: "/projects/setak-games.png",
+    //   description:
+    //     "Setak merupakan games senam otak teka-teki yang terinspirasi dari game Hangman. Project ini pada Front-Endnya dibuat menggunakan React JS kemudian untuk Back-Endnya dibuat menggunakan Express JS dan Prisma ORM dengan database SQLite",
+    //   github: "https://github.com/rulhuda/FE-Setak",
+    //   demo: null,
+    // },
+    // {
+    //   name: "Youtube Downloader",
+    //   image: "/projects/yt-downloader.png",
+    //   description:
+    //     "Project ini terinspirasi dari sebuah situs download video atau musik yang berasal dari youtube, Situs tersebut yaitu y2mate. Project ini dibuat menggunakan React JS dan Chakra UI sebagai Framework CSSnya.",
+    //   github: "https://github.com/rulhuda/rulhuda-ytdownloader",
+    //   demo: "https://rulhuda-ytdownloader.vercel.app/",
+    // },
+    // {
+    //   name: "ENHA RECIPES",
+    //   image: "/projects/enha-recipes.png",
+    //   description:
+    //     "Project ini menampilkan list resep-resep internasional. Project ini terbuat JavaScript yang dikombinasikan dengan library-library npm lainnya. Pada project ini juga memanfaatkan API untuk pengambilan data.",
+    //   github: "https://github.com/rulhuda/enha-recipes",
+    //   demo: "https://rulhuda.github.io/enha-recipes/dist/",
+    // },
+    // {
+    //   name: "BOOKSHELF APPS",
+    //   image: "/projects/bookshelf-app.png",
+    //   description:
+    //     "Project ini menggunakan JavaScript. Pada project ini pengguna dapat menambah, mengedit, menghapus, buku apa saja yang dibaca ataupun belum dibaca. Pada project ini penyimpanan yang digunakan ialah Web Storage, web storage yang dipakai ialah local storage.",
+    //   github: "https://github.com/rulhuda/bookshelf-apps",
+    //   demo: "https://rulhuda.github.io/bookshelf-apps/",
+    // },
   ];
   return (
     <section id='projects'>

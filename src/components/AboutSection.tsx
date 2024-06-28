@@ -3,19 +3,7 @@ import Image from "next/image";
 function AboutSection() {
   const skills = [
     {
-      skill: "Graphic Design",
-    },
-    {
       skill: "Web Development",
-    },
-    {
-      skill: "PhotoShop",
-    },
-    {
-      skill: "CorelDraw",
-    },
-    {
-      skill: "Canva",
     },
     {
       skill: "Figma",
@@ -28,6 +16,9 @@ function AboutSection() {
     },
     {
       skill: "JavaScript",
+    },
+    {
+      skill: "PHP",
     },
     {
       skill: "React JS",
@@ -54,6 +45,9 @@ function AboutSection() {
       skill: "GitHub",
     },
     {
+      skill: "Laravel",
+    },
+    {
       skill: "Node JS",
     },
     {
@@ -61,6 +55,9 @@ function AboutSection() {
     },
     {
       skill: "Prisma ORM",
+    },
+    {
+      skill: "Sequelize ORM",
     },
     {
       skill: "PostgreSQL",
@@ -124,7 +121,7 @@ function AboutSection() {
                 );
               })}
             </div>
-            <div className='flex justify-center my-5'>
+            {/* <div className='flex justify-center my-5'>
               <Image
                 className='rounded-full'
                 src={"/programming.png"}
@@ -132,7 +129,7 @@ function AboutSection() {
                 width={350}
                 height={350}
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

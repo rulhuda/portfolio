@@ -11,12 +11,7 @@ function HeroSection() {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: [
-        "Web Developer.",
-        "Graphic Designer.",
-        "IT Support.",
-        "Programmer.",
-      ],
+      strings: ["IT Enthusiast.", "Web Developer.", "Programmer."],
       typeSpeed: 60,
       backSpeed: 40,
       backDelay: 150,
@@ -34,9 +29,9 @@ function HeroSection() {
       <div className='flex flex-col text-center items-center justify-center sm:py-32 my-12 py-16 md:flex-row md:space-x-4 md:text-left md:py-42'>
         <div className='md:w-1/2 md:mt-2 px-8'>
           <Image
-            className={"rounded-full shadow-xl"}
+            className={"rounded-full shadow-xl opacity-90"}
             priority={true}
-            src={"/Nurul-Huda.png"}
+            src={"/me.jpg"}
             alt=''
             width={300}
             height={300}
@@ -90,6 +85,18 @@ function HeroSection() {
           <HiArrowDown size={30} className='animate-bounce' />
         </Link>
       </div>
+      {/* <ul className='background bg-slate-100 dark:bg-stone-950'>
+        <li className='dark:bg-slate-100 bg-stone-950'></li>
+        <li className='dark:bg-slate-100 bg-stone-950'></li>
+        <li className='dark:bg-slate-100 bg-stone-950'></li>
+        <li className='dark:bg-slate-100 bg-stone-950'></li>
+        <li className='dark:bg-slate-100 bg-stone-950'></li>
+        <li className='dark:bg-slate-100 bg-stone-950'></li>
+        <li className='dark:bg-slate-100 bg-stone-950'></li>
+        <li className='dark:bg-slate-100 bg-stone-950'></li>
+        <li className='dark:bg-slate-100 bg-stone-950'></li>
+        <li className='dark:bg-slate-100 bg-stone-950'></li>
+      </ul> */}
     </section>
   );
 }
