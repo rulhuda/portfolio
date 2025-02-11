@@ -27,6 +27,12 @@ function AboutSection() {
       skill: "Next JS",
     },
     {
+      skill: "Vue JS",
+    },
+    {
+      skill: "Nuxt JS",
+    },
+    {
       skill: "Tailwind CSS",
     },
     {
@@ -45,7 +51,13 @@ function AboutSection() {
       skill: "GitHub",
     },
     {
+      skill: "GitLab",
+    },
+    {
       skill: "Laravel",
+    },
+    {
+      skill: "Codeigniter",
     },
     {
       skill: "Node JS",
@@ -78,7 +90,7 @@ function AboutSection() {
               Ingin tahu mengenai saya?
             </h1>
             <p>
-              Hai, nama saya Huda. Saya seorang Web Developer yang mudah
+              Hai, nama saya Huda. Saya seorang Programmer yang mudah
               beradaptasi, mempelajari hal baru terkait teknologi, dan
               memotivasi diri sendiri yang bertempat tinggal di Jombang, Jawa
               Timur, Indonesia.
@@ -94,17 +106,17 @@ function AboutSection() {
             <p>
               Saya memiliki berbagai macam hobi dan minat yang membuat saya
               sibuk, mulai dari membaca, menulis, coding, saya selalu mencari
-              pengalaman dan cinta baru untuk membuat diri saya tetap terlibat
-              dan mempelajari hal-hal baru.
+              pengalaman dan pengetahuan baru untuk membuat diri saya tetap
+              terlibat dan mempelajari hal-hal baru.
             </p>
             <br />
 
             <p>
-              Saya percaya bahwa Anda tidak boleh Berhenti Bertumbuh dan itulah
-              yang saya Perjuangkan, saya memiliki hasrat terhadap teknologi dan
-              keinginan untuk selalu mendorong batas dari apa yang mungkin. Saya
-              senang melihat ke mana karir saya membawa saya dan selalu terbuka
-              untuk peluang baru. 🙂
+              Saya percaya bahwa kita tidak boleh berhenti bertumbuh dan itulah
+              yang saya perjuangkan, saya antusias terhadap perkembangan
+              teknologi dan keinginan untuk selalu mendorong batas dari apa yang
+              mungkin. Saya senang melihat ke mana karir saya membawa saya dan
+              selalu terbuka untuk peluang baru. 🙂
             </p>
           </div>
           <div className='md:w-1/2'>

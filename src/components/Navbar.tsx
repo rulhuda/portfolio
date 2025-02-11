@@ -44,9 +44,17 @@ function Navbar() {
             <div className='md:hidden'>
               <button>
                 {navbar ? (
-                  <IoMdClose onClick={() => setNavbar(false)} size={25} />
+                  <IoMdClose
+                    fillRule='nonzero'
+                    size={25}
+                    onClick={() => setNavbar(false)}
+                  />
                 ) : (
-                  <IoMdMenu size={25} onClick={() => setNavbar(true)} />
+                  <IoMdMenu
+                    fillRule='nonzero'
+                    size={25}
+                    onClick={() => setNavbar(true)}
+                  />
                 )}
               </button>
             </div>
@@ -83,14 +91,14 @@ function Navbar() {
                   onClick={() => setTheme("light")}
                   className='bg-slate-100 text-stone-900 dark:text-stone-900 p-2 rounded-xl'
                 >
-                  <RiSunLine size={20} />
+                  <RiSunLine fillRule='nonzero' size={20} />
                 </button>
               ) : (
                 <button
                   onClick={() => setTheme("dark")}
-                  className='bg-slate-100 p-2 rounded-xl'
+                  className='bg-slate-100 text-stone-900 dark:text-stone-900 p-2 rounded-xl'
                 >
-                  <RiMoonFill size={20} />
+                  <RiMoonFill fillRule='nonzero' size={20} />
                 </button>
               )}
             </div>

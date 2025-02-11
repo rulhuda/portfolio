@@ -24,13 +24,13 @@ export default function Home() {
         <span className='text-indigo-800'></span>
         <span className='text-red-400'></span>
         <span className='text-red-500'></span>
-        <span className='text-indigo-200'></span>
+        {/* <span className='text-indigo-200'></span>
         <span className='text-teal-200'></span>
         <span className='text-red-600'></span>
         <span className='text-teal-300'></span>
         <span className='text-red-700'></span>
         <span className='text-indigo-300'></span>
-        <span className='text-red-300'></span>
+        <span className='text-red-300'></span> */}
       </div>
     </main>
   );

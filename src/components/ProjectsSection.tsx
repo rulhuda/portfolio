@@ -35,7 +35,7 @@ function ProjectsSection() {
       description:
         "Project ini dibuat menggunakan JavaScript yang dikombinasikan dengan library-library npm lainnya. Pada project ini juga mengusung fitur Progressive Web Apps (PWA) dan juga memanfaatkan indexedDB sebagai penyimpanan sementara untuk penambahan favorit restoran.",
       github: "https://github.com/rulhuda/restaurant-apps",
-      demo: "https://seresta.rulhuda.com",
+      demo: "https://rulhuda.github.io/seresta/",
     },
     // {
     //   name: "Games: Setak",

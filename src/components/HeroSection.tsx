@@ -27,16 +27,29 @@ function HeroSection() {
   return (
     <section id='home'>
       <div className='flex flex-col text-center items-center justify-center sm:py-32 my-12 py-16 md:flex-row md:space-x-4 md:text-left md:py-42'>
-        <div className='md:w-1/2 md:mt-2 px-8'>
+        <div className='relative'>
+          <div className='rounded-full border border-gray-400 bg-white relative z-20'>
+            <Image
+              className={"rounded-full shadow-xl"}
+              priority={true}
+              src={"/me.jpg"}
+              alt=''
+              width={300}
+              height={300}
+            />
+          </div>
+          <div className='rounded-full absolute -inset-1 blur-md bg-gradient-to-br from-pink-500 via-cyan-500 to-violet-500 z-10'></div>
+        </div>
+        {/* <div className='md:w-1/2 md:mt-2 px-8'>
           <Image
-            className={"rounded-full shadow-xl opacity-90"}
+            className={"rounded-full shadow-xl opacity-90 grayscale-75"}
             priority={true}
             src={"/me.jpg"}
             alt=''
             width={300}
             height={300}
           />
-        </div>
+        </div> */}
         <div className='md:mt-2 md:w-3/5'>
           <h1 className='font-bold text-4xl mt-6 md:text-7xl md:mt-0 text-left'>
             Hi, I{"'"}m Huda!
@@ -48,7 +61,7 @@ function HeroSection() {
             <NextLink
               rel='noopener noreferrer'
               target='_blank'
-              download={true}
+              // download={true}
               title='Download Portfolio'
               href='/resume/Nurul-Huda_Portfolio.pdf'
               className='text-neutral-100 cursor-pointer font-semibold px-6 py-3 bg-teal-500 rounded-md text-2xl'
