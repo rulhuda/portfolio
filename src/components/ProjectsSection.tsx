@@ -37,14 +37,14 @@ function ProjectsSection() {
       github: "https://github.com/rulhuda/restaurant-apps",
       demo: "https://rulhuda.github.io/seresta/",
     },
-    // {
-    //   name: "Games: Setak",
-    //   image: "/projects/setak-games.png",
-    //   description:
-    //     "Setak merupakan games senam otak teka-teki yang terinspirasi dari game Hangman. Project ini pada Front-Endnya dibuat menggunakan React JS kemudian untuk Back-Endnya dibuat menggunakan Express JS dan Prisma ORM dengan database SQLite",
-    //   github: "https://github.com/rulhuda/FE-Setak",
-    //   demo: null,
-    // },
+    {
+      name: "Games: Setak",
+      image: "/projects/setak-games.png",
+      description:
+        "Setak merupakan games senam otak teka-teki yang terinspirasi dari game Hangman. Project ini pada Front-Endnya dibuat menggunakan React JS kemudian untuk Back-Endnya dibuat menggunakan Express JS dan Prisma ORM dengan database SQLite",
+      github: "https://github.com/rulhuda/FE-Setak",
+      demo: null,
+    },
     // {
     //   name: "Youtube Downloader",
     //   image: "/projects/yt-downloader.png",
@@ -53,27 +53,27 @@ function ProjectsSection() {
     //   github: "https://github.com/rulhuda/rulhuda-ytdownloader",
     //   demo: "https://rulhuda-ytdownloader.vercel.app/",
     // },
-    // {
-    //   name: "ENHA RECIPES",
-    //   image: "/projects/enha-recipes.png",
-    //   description:
-    //     "Project ini menampilkan list resep-resep internasional. Project ini terbuat JavaScript yang dikombinasikan dengan library-library npm lainnya. Pada project ini juga memanfaatkan API untuk pengambilan data.",
-    //   github: "https://github.com/rulhuda/enha-recipes",
-    //   demo: "https://rulhuda.github.io/enha-recipes/dist/",
-    // },
-    // {
-    //   name: "BOOKSHELF APPS",
-    //   image: "/projects/bookshelf-app.png",
-    //   description:
-    //     "Project ini menggunakan JavaScript. Pada project ini pengguna dapat menambah, mengedit, menghapus, buku apa saja yang dibaca ataupun belum dibaca. Pada project ini penyimpanan yang digunakan ialah Web Storage, web storage yang dipakai ialah local storage.",
-    //   github: "https://github.com/rulhuda/bookshelf-apps",
-    //   demo: "https://rulhuda.github.io/bookshelf-apps/",
-    // },
+    {
+      name: "ENHA RECIPES",
+      image: "/projects/enha-recipes.png",
+      description:
+        "Project ini menampilkan list resep-resep internasional. Project ini terbuat JavaScript yang dikombinasikan dengan library-library npm lainnya. Pada project ini juga memanfaatkan API untuk pengambilan data.",
+      github: "https://github.com/rulhuda/enha-recipes",
+      demo: "https://rulhuda.github.io/enha-recipes/dist/",
+    },
+    {
+      name: "BOOKSHELF APPS",
+      image: "/projects/bookshelf-app.png",
+      description:
+        "Project ini menggunakan JavaScript. Pada project ini pengguna dapat menambah, mengedit, menghapus, buku apa saja yang dibaca ataupun belum dibaca. Pada project ini penyimpanan yang digunakan ialah Web Storage, web storage yang dipakai ialah local storage.",
+      github: "https://github.com/rulhuda/bookshelf-apps",
+      demo: "https://rulhuda.github.io/bookshelf-apps/",
+    },
   ];
   return (
     <section id='projects'>
       <h1 className='text-center font-bold text-4xl'>Projects</h1>
-      <hr className='w-6 h-1 mx-auto my-4 bg-teal-500 border-o rounded' />
+      <hr className='w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded' />
       <div className='flex flex-col space-y-26 px-4'>
         {projects.map((project, idx) => {
           return (

@@ -26,7 +26,7 @@ function HeroSection() {
   }, []);
   return (
     <section id='home'>
-      <div className='flex flex-col text-center items-center justify-center sm:py-32 my-12 py-16 md:flex-row md:space-x-4 md:text-left md:py-42'>
+      <div className='flex flex-col text-center items-center justify-center sm:py-32 my-12 py-16 md:flex-row md:space-x-4 md:text-left md:py-42 gap-8 md:gap-12'>
         <div className='relative'>
           <div className='rounded-full border border-gray-400 bg-white relative z-20'>
             <Image
@@ -40,22 +40,16 @@ function HeroSection() {
           </div>
           <div className='rounded-full absolute -inset-1 blur-md bg-gradient-to-br from-pink-500 via-cyan-500 to-violet-500 z-10'></div>
         </div>
-        {/* <div className='md:w-1/2 md:mt-2 px-8'>
-          <Image
-            className={"rounded-full shadow-xl opacity-90 grayscale-75"}
-            priority={true}
-            src={"/me.jpg"}
-            alt=''
-            width={300}
-            height={300}
-          />
-        </div> */}
         <div className='md:mt-2 md:w-3/5'>
-          <h1 className='font-bold text-4xl mt-6 md:text-7xl md:mt-0 text-left'>
+          <h1 className='text-4xl md:text-9xl mt-2 md:mt-0 font-extrabold bg-clip-text text-transparent drop-shadow-[1.6px_0.8px_rgba(0,0,0,0.8)] bg-[linear-gradient(to_right,theme(colors.green.300),theme(colors.green.100),theme(colors.sky.400),theme(colors.yellow.200),theme(colors.sky.400),theme(colors.green.100),theme(colors.green.300))] bg-[length:200%_auto] animate-gradient'>
             Hi, I{"'"}m Huda!
           </h1>
           <p className='text-2xl mt-4 mb-6 text-left'>
-            I{"'"}m a <span ref={el} className='font-semibold text-teal-500' />
+            I{"'"}m a{" "}
+            <span
+              ref={el}
+              className='font-extrabold bg-gradient-to-r from-sky-400 via-yellow-200 to-sky-400 inline-block text-transparent bg-clip-text drop-shadow-[0.6px_0.3px_rgba(0,0,0,0.8)]'
+            />
           </p>
           <div className='flex flex-row space-x-4 justify-center md:justify-start'>
             <NextLink

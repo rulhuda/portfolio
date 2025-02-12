@@ -77,13 +77,16 @@ function AboutSection() {
     {
       skill: "MySQL",
     },
+    {
+      skill: "SQLite",
+    },
   ];
 
   return (
     <section id='about'>
       <div className='my-12 pb-12 px-4 md:pt-16 md:pb-48'>
         <h1 className='text-center font-bold text-4xl'>About Me</h1>
-        <hr className='w-6 h-1 mx-auto my-4 bg-teal-500 border-o rounded' />
+        <hr className='w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded' />
         <div className='flex flex-col space-y-10 items-stretch justify-center align-top md:flex-row md:text-left md:space-x-2 md:space-y-0'>
           <div className='md:w-1/2'>
             <h1 className='font-bold text-2xl py-2'>
@@ -98,6 +101,24 @@ function AboutSection() {
             <br />
 
             <p>
+              Lulusan S1 Teknik Informatika dengan pengalaman lebih dari satu
+              tahun sebagai Programmer di salah satu Rumah Sakit, berkontribusi
+              mengembangkan dan memelihara sistem IT untuk meningkatkan
+              efisiensi operasional dan sesuai standar kebutuhan administratif.
+            </p>
+            <br />
+
+            <p>
+              Memiliki pengalaman magang dan studi independen di Dicoding,
+              dengan fokus pada pengembangan software dan implementasi project
+              nyata, termasuk pembuatan sistem berbasis website. Menguasai
+              teknologi terkini, serta memiliki kemampuan problem-solving yang
+              kuat. Saya siap berkontribusi dengan solusi IT inovatif untuk
+              mendukung pertumbuhan dan efisiensi perusahaan.
+            </p>
+            <br />
+
+            {/* <p>
               Saya lulus dari Universitas Hasyim Asy{"'"}ari, Jombang pada tahun
               2023 dengan predikat Cumlaude jurusan S1 Teknik Informatika.
             </p>
@@ -109,14 +130,14 @@ function AboutSection() {
               pengalaman dan pengetahuan baru untuk membuat diri saya tetap
               terlibat dan mempelajari hal-hal baru.
             </p>
-            <br />
+            <br /> */}
 
             <p>
               Saya percaya bahwa kita tidak boleh berhenti bertumbuh dan itulah
               yang saya perjuangkan, saya antusias terhadap perkembangan
               teknologi dan keinginan untuk selalu mendorong batas dari apa yang
               mungkin. Saya senang melihat ke mana karir saya membawa saya dan
-              selalu terbuka untuk peluang baru. 🙂
+              selalu terbuka untuk peluang baru.
             </p>
           </div>
           <div className='md:w-1/2'>

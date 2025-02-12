@@ -26,7 +26,7 @@ function ContactSection() {
     {
       name: "Mail",
       icon: <HiMail size={40} fillRule='nonzero' />,
-      link: "mailto:nurulhuda.unhasy@gmail.com",
+      link: "mailto:rulhuda.me@gmail.com",
       download: false,
     },
     {
@@ -40,7 +40,7 @@ function ContactSection() {
     <section id='contact'>
       <div className='w-full my-12'>
         <h1 className='text-center font-bold text-4xl'>Contacts</h1>
-        <hr className='w-6 h-1 mx-auto my-4 bg-teal-500 border-o rounded' />
+        <hr className='w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded' />
         <div className='flex flex-row flex-wrap justify-center space-x-4 sm:space-x-8 md:space-x-12 lg:space-x-16'>
           {contacts.map((contact, idx) => {
             return (
